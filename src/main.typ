@@ -1,6 +1,7 @@
 #show heading: set text(font: "Linux Biolinum")
-
 #show link: underline
+
+#import "lib.typ": *
 
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
@@ -21,6 +22,11 @@
 
 #let today = datetime.today()
 
+#init((
+  lang: "en",
+  topic: "cv",
+))
+
 = Linshu Yang
 
 yanglsh\@shanghaitech.edu.cn |
@@ -30,10 +36,6 @@ yanglsh\@shanghaitech.edu.cn |
 
 == Education
 #chiline()
-
-// #link("https://typst.app/")[*#lorem(2)*] #h(1fr) 2333/23 -- 2333/23 \
-// #lorem(5) #h(1fr) #lorem(2) \
-// - #lorem(10)
 
 *ShanghaiTech University* #h(1fr) 2021/09 -- present \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, China 
