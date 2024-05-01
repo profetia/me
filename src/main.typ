@@ -94,7 +94,7 @@ An education oriented operating system from Stanford  #h(1fr) // #lorem(2)
 *BusTub* #h(1fr) 2023/11 -- 2023/12 \
 A relational database management system from CMU implemented in C++  #h(1fr) // #lorem(2) 
 \
-- Implemented core functionalities of a DBMS including storage managenment, indexing, query execution and concurrency control.
+- Implemented core functionalities of a DBMS including storage management, indexing, query execution and concurrency control.
 
 *LBM* #link("https://github.com/winlere/lbm")[github.com/winlere/lbm] #h(1fr) 2023/04 -- 2023/05 \
 An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #lorem(2) 
@@ -133,8 +133,8 @@ Assistant Manager #h(1fr) // Shanghai, China
 == Skills
 #chiline()
 
-*Proramming Languages*: Python, Rust, C, C++, Typescript, Golang, Shell, SQL \
-*Tools and Frameworks*: Pytorch, Uppaal, MPI, OpenMP, CUDA, Blender, VTune, FastAPI, React \
+*Programming Languages*: Python, Rust, C, C++, Typescript, Golang, Shell, SQL \
+*Tools and Frameworks*: Pytorch, MPI, OpenMP, CUDA, UPPAAL, Blender, VTune, FastAPI, React \
 *DevOps Technologies*: Kubernetes, Docker, Gitlab, Postgres, Cloudflare Worker
 
 == Awards
