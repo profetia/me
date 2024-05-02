@@ -31,7 +31,6 @@
 
 yanglsh\@shanghaitech.edu.cn |
 #link("https://github.com/mousany")[github.com/mousany] 
-// | #link("https://skyzh.dev")[skyzh.dev]
 #h(1fr) Last Updated: #today.display("[year]/[month]") 
 
 == Education
