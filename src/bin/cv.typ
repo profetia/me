@@ -1,8 +1,6 @@
 #show heading: set text(font: "Linux Biolinum")
 #show link: underline
 
-#import "lib.typ": *
-
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
 // #set text(
@@ -21,11 +19,6 @@
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
 
 #let today = datetime.today()
-
-#init((
-  lang: "en",
-  topic: "cv",
-))
 
 = Linshu Yang
 
