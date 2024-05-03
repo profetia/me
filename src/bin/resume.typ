@@ -92,7 +92,7 @@ GPA 3.69/4.0 #h(5pt)
 - #en[Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.]
   #zh[在嵌入式系统上利用硬件计数器模拟硬件PTP时钟，将精确时间协议（PTP）迁移到蓝牙低功耗（BLE）上。]
 - #en[Explored possible attack methods to exploit the vulnerability of a popular commercial LIDAR model.]
-  #zh[探索了多种可能的攻击方法，利用一种流行的商用激光雷达模型的漏洞。]
+  #zh[探索了多种可能的攻击方法，利用一款流行的商用激光雷达的漏洞。]
 
 === #en[Human-Cyber-Physical System Lab] #zh[人-机-物三元融合实验室]
 #h(1fr) 2022/07 -- 2023/06 \
