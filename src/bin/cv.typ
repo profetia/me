@@ -109,8 +109,8 @@ Team Leader #h(1fr) // Shanghai, China
 *Geekpie Association* #h(1fr) 2022/08 -- 2023/07 \
 Vice President #h(1fr) // Shanghai, China 
 \
-- Developed the frontend of Coursebench, a course rating platform at ShanghaiTech University
-- Organized events including Geekpie Games and Geekpie Linux Seminar, with more than 1000 students participated.
+- Developed the frontend of Coursebench, a course rating platform at ShanghaiTech University.
+- Organized events including Geekpie Games and Geekpie Linux Seminar, with more than 1k students participated.
 
 *School of Information Science and Technology* #h(1fr) 2023/02 -- 2023/06 \
 Teaching Assistant #h(1fr) // Shanghai, China 
