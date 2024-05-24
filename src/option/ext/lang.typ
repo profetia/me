@@ -1,4 +1,4 @@
-#import "core.typ": declare, option
+#import "../core.typ": declare, option
 
 #option("lang", "en")
 
