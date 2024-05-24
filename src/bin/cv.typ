@@ -45,7 +45,7 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, 
 Research Intern, Advised by Prof. Zhice Yang #h(1fr) // Shanghai, China 
 \
 - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.
-- Explored possible attack methods to exploit the vulnerability of a popular commercial LIDAR model.
+- Explored possible attack methods to exploit the vulnerability of a popular commodity LIDAR.
 
 *Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
 Research Intern, Advised by Prof. Zhihao Jiang #h(1fr) // Shanghai, China 
@@ -57,9 +57,10 @@ Research Intern, Advised by Prof. Zhihao Jiang #h(1fr) // Shanghai, China
 == Work Experience
 #chiline()
 
-// *Keen Security Lab, Tencent Inc.* #h(1fr) 2024/04 -- 2024/07 \
-// Software Development Intern #h(1fr) // Shanghai, China
-// - TODO
+*Keen Security Lab, Tencent* #h(1fr) 2024/04 -- 2024/06 \
+System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
+- Rewrote the log parser with PEG parser generator to replace the existing hand-written parser, reducing the code size by 50%.
+- Renovated the abandoned Linux sandbox to support the newer kernel version and added dynamic memory analysis capabilities.
 
 *Deemos Technologies Inc.* #h(1fr) 2023/01 -- 2023/07 \
 Software Engineer Intern #h(1fr) // Shanghai, China 
@@ -104,7 +105,8 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 
 *ISC24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04 \
 Team Leader #h(1fr) // Shanghai, China 
-- Responsible for implementing GPU offloading, MPI profiling and code optimization for microphysics, a climate simulation application derived from the ICON model. 
+- Responsible for implementing GPU offloading and code optimization for microphysics, a climate simulation application derived from the ICON model. 
+- Guided the team on MPI profiling and optimization, reducing the time spend on communication by 50%.
 
 *Geekpie Association* #h(1fr) 2022/08 -- 2023/07 \
 Vice President #h(1fr) // Shanghai, China 
@@ -125,7 +127,7 @@ Assistant Manager #h(1fr) // Shanghai, China
 == Skills
 #chiline()
 
-*Programming Languages*: Python, Rust, C, C++, Typescript, Golang, Shell, SQL \
+*Programming Languages*: Python, Rust, C, C++, Golang, Typescript, Shell, SQL \
 *Tools and Frameworks*: Pytorch, MPI, OpenMP, CUDA, UPPAAL, Blender, VTune, FastAPI, React \
 *DevOps Technologies*: Kubernetes, Docker, Gitlab, Postgres, Cloudflare Worker
 
