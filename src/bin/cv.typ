@@ -59,7 +59,7 @@ Research Intern, Advised by Prof. Zhihao Jiang #h(1fr) // Shanghai, China
 
 *Keen Security Lab, Tencent* #h(1fr) 2024/04 -- 2024/06 \
 System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
-- Rewrote the log parser with PEG parser generator to replace the existing hand-written parser, reducing the code size by 50%.
+- Rewrote the log parser with PEG parser generator to replace the existing hand-written parser.
 - Renovated the abandoned Linux sandbox to support the newer kernel version and added dynamic memory analysis capabilities.
 
 *Deemos Technologies Inc.* #h(1fr) 2023/01 -- 2023/07 \
@@ -134,6 +134,7 @@ Assistant Manager #h(1fr) // Shanghai, China
 == Awards
 #chiline()
 
+- Rank 9/29 (4/29 for microphysics), ISC24 Student Cluster Competition #h(1fr) 2024/04
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Outstanding Student, ShanghaiTech University #h(1fr) 2022/10

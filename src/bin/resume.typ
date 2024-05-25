@@ -1,5 +1,6 @@
 #import "@preview/fontawesome:0.1.0": *
-#import "../lib.typ": *
+#import "../option/mod.typ": ext
+#import "../lib.typ": option
 
 #set page(
   margin: (x: 0.9cm, y: 1.3cm),
@@ -17,10 +18,10 @@
 #option.option("lang", lang)
 #let zh(content) = [
   #set text(font: "Microsoft YaHei")
-  #option.zh(content)
+  #ext.lang.zh(content)
 ]
 #let en(content) = [
-  #option.en(content)
+  #ext.lang.en(content)
 ]
 #let present = [
   #en[present]
@@ -44,7 +45,7 @@
 #show heading.where(level: 3): it => [
   #it.body
 ]
-#show <contact>: it => [
+#let contact(it) = [
   #set align(center)
   #set text(size: 12pt)
   #set block(above: 0.5em, below: 0.5em)
@@ -59,10 +60,10 @@
 #en[#v(-0.75em)]
 
 // *Pudong, Shanghai, China* <contact>
-#[
+#contact[
   #email #link("mailto:yanglsh@shanghaitech.edu.cn")[yanglsh\@shanghaitech.edu.cn] |
   #github #link("https://github.com/mousany")[github.com/mousany] 
-] <contact>
+]
 
 #en[#v(0.4em)]
 
