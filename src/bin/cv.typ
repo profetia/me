@@ -42,13 +42,13 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, 
 #chiline()
 
 *Wireless and Mobile System Lab* #h(1fr) 2023/12 -- present \
-Research Intern, Advised by Prof. Zhice Yang #h(1fr) // Shanghai, China 
+Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) // Shanghai, China 
 \
 - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.
 - Explored possible attack methods to exploit the vulnerability of a popular commodity LIDAR.
 
 *Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
-Research Intern, Advised by Prof. Zhihao Jiang #h(1fr) // Shanghai, China 
+Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) // Shanghai, China 
 \
 - Maintained a Python library for verification of time automata and partially observable systems.
 - Implemented and optimized a novel model-checking based cardiac diagnoser to achieve real-time analysis and diagnosis on cardiac electrical signals.
@@ -59,8 +59,8 @@ Research Intern, Advised by Prof. Zhihao Jiang #h(1fr) // Shanghai, China
 
 *Keen Security Lab, Tencent* #h(1fr) 2024/04 -- 2024/06 \
 System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
+- Renovated the abandoned Linux sandbox to support the newer kernel versions and added dynamic memory analysis capabilities.
 - Rewrote the log parser with PEG parser generator to replace the existing hand-written parser.
-- Renovated the abandoned Linux sandbox to support the newer kernel version and added dynamic memory analysis capabilities.
 
 *Deemos Technologies Inc.* #h(1fr) 2023/01 -- 2023/07 \
 Software Engineer Intern #h(1fr) // Shanghai, China 
@@ -134,7 +134,7 @@ Assistant Manager #h(1fr) // Shanghai, China
 == Awards
 #chiline()
 
-- Rank 9/29 (4/29 for microphysics), ISC24 Student Cluster Competition #h(1fr) 2024/04
+- Rank 9/29 (5/29 for my part on microphysics), ISC24 Student Cluster Competition #h(1fr) 2024/04
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
-- Outstanding Student, ShanghaiTech University #h(1fr) 2022/10
+- Outstanding Student (Rank 3%-7%), ShanghaiTech University #h(1fr) 2022/10
