@@ -33,6 +33,7 @@ yanglsh\@shanghaitech.edu.cn |
 Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, China 
 \
 - GPA 3.69/4.0, Rank 25/189
+// TODO: Computer Architecture maybe removed
 - Relevant Courses: Algorithm and Data Structure (A), Computer Architecture (A+), Software Engineering (A), \ 
   #h(83pt) Computer Networks (A+), Operating System (A+), Deep Learning (A+)
 - Standardized Test: 
