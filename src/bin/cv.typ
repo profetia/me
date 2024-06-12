@@ -60,8 +60,9 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) // Shanghai, China
 
 *Keen Security Lab, Tencent* #h(1fr) 2024/04 -- 2024/06 \
 System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
-- Renovated the abandoned Linux sandbox to support the newer kernel versions and added dynamic memory analysis capabilities.
-- Rewrote the log parser with PEG parser generator to replace the existing hand-written parser.
+- Renovated the abandoned Linux sandbox to support the newer kernel versions.
+- Extended the dynamic memory analysis capability of the sandbox with kernel modules and eBPF.
+// - Rewrote the log parser with PEG parser generator to replace the existing hand-written parser.
 
 *Deemos Technologies Inc.* #h(1fr) 2023/01 -- 2023/07 \
 Software Engineer Intern #h(1fr) // Shanghai, China 

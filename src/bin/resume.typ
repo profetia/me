@@ -126,9 +126,14 @@ GPA 3.69/4.0 #h(5pt)
 #h(1fr) 2024/04 -- 2024/07 \
 #en[System R&D Intern, Tactic Intelligence Team] #zh[情报系统研发实习]
 #h(1fr) 
-#en[Malware Analysis, Linux Sandbox] #zh[恶意代码分析，Linux 沙箱]
-- #en[Renovated the abandoned Linux sandbox to support the newer kernel version and added dynamic memory analysis capabilities.]
-  #zh[翻新了被废弃的 Linux 沙箱，支持新的内核版本，并增加了动态内存分析功能。]
+#en[Malware Analysis, Linux, eBPF] #zh[恶意代码分析，Linux，eBPF]
+#en[
+- Renovated the abandoned Linux sandbox to support the newer kernel versions.
+- Extended the dynamic memory analysis capability of the sandbox with kernel modules and eBPF.
+]
+#zh[
+- 翻新了被废弃的 Linux 沙箱以支持新的内核版本，并通过内核模块和 eBPF 扩展了沙箱的动态内存分析能力。
+]
 
 // === #en[Deemos Technologies Inc.] #zh[影眸科技有限公司]
 // #h(1fr) 2023/01 -- 2023/07 \
