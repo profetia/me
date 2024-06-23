@@ -45,23 +45,23 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, 
 *Wireless and Mobile System Lab* #h(1fr) 2023/12 -- present \
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) // Shanghai, China 
 \
-- Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.
+- Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with specific counters.
 - Explored possible attack methods to exploit the vulnerability of a popular commodity LIDAR.
 
 *Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) // Shanghai, China 
 \
-- Maintained a Python library for verification of time automata and partially observable systems.
+- Maintained a Python toolbox for verification of time automata and partially observable systems.
 - Implemented and optimized a novel model-checking based cardiac diagnoser to achieve real-time analysis and diagnosis on cardiac electrical signals.
-- Deployed a Kubernetes cluster to manage applications of HCPS Lab, providing TLS certificate automation, persistent volumes and load balancers.
+// - Deployed a Kubernetes cluster to manage applications of HCPS Lab, providing TLS certificate automation, persistent volumes and load balancers.
   
 == Work Experience
 #chiline()
 
-*Keen Security Lab, Tencent* #h(1fr) 2024/04 -- 2024/06 \
+*Keen Security Lab, Tencent* #h(1fr) 2024/04 -- present \
 System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
 - Renovated the abandoned Linux sandbox to support the newer kernel versions.
-- Extended the dynamic memory analysis capability of the sandbox with kernel modules and eBPF.
+- Extended the dynamic malware analysis capability of the sandbox with kernel modules and eBPF.
 // - Rewrote the log parser with PEG parser generator to replace the existing hand-written parser.
 
 *Deemos Technologies Inc.* #h(1fr) 2023/01 -- 2023/07 \
