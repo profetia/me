@@ -32,10 +32,10 @@ yanglsh\@shanghaitech.edu.cn |
 *ShanghaiTech University* #h(1fr) 2021/09 -- present \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, China 
 \
-- GPA 3.69/4.0, Rank 25/189
+- GPA 3.72/4.0, Rank 32/234
 // TODO: Computer Architecture maybe removed
-- Relevant Courses: Algorithm and Data Structure (A), Computer Architecture (A+), Software Engineering (A), \ 
-  #h(83pt) Computer Networks (A+), Operating System (A+), Deep Learning (A+)
+- Relevant Courses: Algorithm and Data Structure (A), /*Computer Architecture (A+), */ Computer Networks (A+), Operating System (A+),\ 
+   #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided Verification (A+)
 - Standardized Test: 
   - TOFEL: 108 (Reading 29 + Listening 30 + Speaking 22 + Writing 27)
 
@@ -67,8 +67,8 @@ System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
 *Deemos Technologies Inc.* #h(1fr) 2023/01 -- 2023/07 \
 Software Engineer Intern #h(1fr) // Shanghai, China 
 \
-- Developed a full stack application to commercialize ChatAvatar, a text to 3D generation model developed by the company.
-- Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human model.
+- Developed a full stack application to commercialize ChatAvatar, a text to 3D generation model.
+- Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
 
 == Projects
 #chiline()

@@ -79,11 +79,11 @@
 #en[Bachelor of Engineering in Computer Science and Technology ]
 #zh[计算机科学与技术工程学士]
 #h(1fr) 
-GPA 3.69/4.0 #h(5pt) 
+GPA 3.72/4.0 #h(5pt) 
 #en[TOFEL] #zh[托福] 108
-- #en[Relevant Courses: Algorithm and Data Structure, Computer Architecture, Software Engineering, Computer Networks, \ 
-  #h(83pt) Operating System, Parallel Computing, Database Systems, Deep Learning]
-  #zh[相关课程：算法与数据结构，软件工程，计算机网络，操作系统，并行计算，数据库，深度学习]
+- #en[Relevant Courses: Computer Architecture, Software Engineering, Computer Networks, Operating System,  \ 
+  #h(83pt) Parallel Computing, Database Systems, Deep Learning, Computer Aided Verification]
+  #zh[相关课程：计算机体系结构，软件工程，计算机网络，操作系统，并行计算，数据库，计算机辅助验证]
 
 #zh[#v(3pt)]
 
