@@ -14,7 +14,7 @@
 )
 #let email = box(fa-icon("envelope", fill: dark))
 
-#let lang = "en"
+#let lang = "zh"
 #option.option("lang", lang)
 #let zh(content) = [
   #set text(font: "Microsoft YaHei")
@@ -221,8 +221,8 @@ GPA 3.72/4.0 #h(5pt)
 #zh[#v(3pt)]
 
 == #en[Miscellaneous] #zh[杂项]
-#zh[熟悉操作系统和计算机体系结构，擅长计算机网络和网络分布式系统。]
-- #en[Skills] #zh[技能]: Python, Rust, C, C++, Typescript, Go, Pytorch, MPI, OpenMP, CUDA, Kubernetes, Docker, Postgres
+#zh[熟悉操作系统和计算机体系结构，擅长计算机网络和高性能计算。]
+- #en[Skills] #zh[技能]: Python, Rust, C, C++, Typescript, Go, Pytorch, MPI, OpenMP, CUDA, Docker, Linux Kernel, eBPF
 - #en[Awards] #zh[奖项]:
   - #en[Rank 9/29 (4/29 for my part), ISC24 Student Cluster Competition] 
     #zh[ISC24 国际超算竞赛第 9 名（个人负责部分第 3 名）]
