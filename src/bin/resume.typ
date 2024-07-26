@@ -14,7 +14,7 @@
 )
 #let email = box(fa-icon("envelope", fill: dark))
 
-#let lang = "zh"
+#let lang = "en"
 #option.option("lang", lang)
 #let zh(content) = [
   #set text(font: "Microsoft YaHei")
@@ -80,7 +80,7 @@
 #zh[计算机科学与技术工程学士]
 #h(1fr) 
 GPA 3.72/4.0 #h(5pt) 
-#en[TOFEL] #zh[托福] 108
+#en[TOFEL] #zh[托福] 112
 - #en[Relevant Courses: Computer Architecture, Software Engineering, Computer Networks, Operating System,  \ 
   #h(83pt) Parallel Computing, Database Systems, Deep Learning, Computer Aided Verification]
   #zh[相关课程：计算机体系结构，软件工程，计算机网络，操作系统，并行计算，数据库，计算机辅助验证]

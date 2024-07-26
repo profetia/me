@@ -37,7 +37,7 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) // Shanghai, 
 - Relevant Courses: Algorithm and Data Structure (A), /*Computer Architecture (A+), */ Computer Networks (A+), Operating System (A+),\ 
    #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided Verification (A+)
 - Standardized Test: 
-  - TOFEL: 108 (Reading 29 + Listening 30 + Speaking 22 + Writing 27)
+  - TOFEL: 112 (Reading 30 + Listening 30 + Speaking 24 + Writing 28)
 
 == Research Experience
 #chiline()
@@ -130,7 +130,7 @@ Assistant Manager #h(1fr) // Shanghai, China
 #chiline()
 
 *Programming Languages*: Python, Rust, C, C++, Golang, Typescript, Shell, SQL \
-*Tools and Frameworks*: Pytorch, MPI, OpenMP, CUDA, UPPAAL, Blender, VTune, FastAPI, React \
+*Tools and Frameworks*: Pytorch, MPI, OpenMP, CUDA, Linux Kernel, eBPF, UPPAAL, Blender \
 *DevOps Technologies*: Kubernetes, Docker, Gitlab, Postgres, Cloudflare Worker
 
 == Awards
