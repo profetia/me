@@ -7,9 +7,11 @@
     // words - list of words to be always considered correct
     "words": [
         "Biolinum",
+        "Chenfei",
         "chiline",
         "Coursebench",
         "CUDA",
+        "Dafny",
         "datetime",
         "Deemos",
         "diagnoser",
@@ -24,9 +26,11 @@
         "Linshu",
         "mmap",
         "mousany",
+        "NOIP",
         "Peilin",
         "Pudong",
         "Rathernet",
+        "Saarbrücken",
         "shanghaitech",
         "SIMD",
         "sinogram",
@@ -35,6 +39,7 @@
         "userspace",
         "winlere",
         "yanglsh",
+        "Yiting",
         "Zhice",
         "Zhihao"
     ],
