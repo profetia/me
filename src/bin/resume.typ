@@ -93,13 +93,15 @@ GPA 3.72/4.0 #h(5pt)
 #en[Research Intern, Advised by Prof. Zhice Yang] 
 #zh[在杨智策教授指导下的科研]
 #h(1fr) 
-#en[Wireless Networking System, Cyber-Physical System]
-#zh[无线网络系统，网络物理系统，嵌入式系统]
+#en[Wireless Networking System, Network Physical System]
+#zh[无线网络系统，网络物理系统，操作系统内核]
 \
 - #en[Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.]
   #zh[在嵌入式系统上利用硬件计数器模拟硬件PTP时钟，将精确时间协议（PTP）迁移到蓝牙低功耗（BLE）上。]
 - #en[Explored possible attack methods to exploit the vulnerability of a popular commercial LIDAR model.]
   #zh[探索了多种可能的攻击方法，利用一款流行的商用激光雷达的漏洞。]
+- #en[Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.] 
+  #zh[提出了一个常见于恶意代码分析的 eBPF 密集场景，以展示内核空间中的 ITD 更新。]
 
 #v(-1pt)
 
@@ -115,8 +117,8 @@ GPA 3.72/4.0 #h(5pt)
   #zh[维护了一个基于 UPPAAL 验证求解器的时间自动机模型验证工具链。]
 - #en[Implemented and optimized a novel model-checking based cardiac diagnoser to achieve real-time analysis and diagnosis on cardiac electrical signals.]
   #zh[实现并优化了一种基于抽象细化模型验证方法的错误诊断算法，并应用于对心脏电信号的实时分析和诊断。]
-- #en[Deployed a Kubernetes cluster to manage applications of HCPS Lab, providing TLS certificate automation, persistent volumes and load balancers.]
-  #zh[部署了一个 Kubernetes 集群，用于管理实验室的应用，提供自动化 TLS 证书、持久卷和负载均衡器。]
+// - #en[Deployed a Kubernetes cluster to manage applications of HCPS Lab, providing TLS certificate automation, persistent volumes and load balancers.]
+//   #zh[部署了一个 Kubernetes 集群，用于管理实验室的应用，提供自动化 TLS 证书、持久卷和负载均衡器。]
   
 #zh[#v(3pt)]
 
@@ -130,9 +132,11 @@ GPA 3.72/4.0 #h(5pt)
 #en[
 - Renovated the abandoned Linux sandbox to support the newer kernel versions.
 - Extended the dynamic memory analysis capability of the sandbox with kernel modules and eBPF.
+- Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 ]
 #zh[
 - 翻新了被废弃的 Linux 沙箱以支持新的内核版本，并通过内核模块和 eBPF 扩展了沙箱的动态内存分析能力。
+- 重构了恶意代码数据库的 gRPC 终端，并使用 PEG 重写了日志解析器。
 ]
 
 // === #en[Deemos Technologies Inc.] #zh[影眸科技有限公司]
@@ -221,8 +225,8 @@ GPA 3.72/4.0 #h(5pt)
 #zh[#v(3pt)]
 
 == #en[Miscellaneous] #zh[杂项]
-#zh[熟悉操作系统和计算机体系结构，擅长计算机网络和高性能计算。]
-- #en[Skills] #zh[技能]: Python, Rust, C, C++, Typescript, Go, Pytorch, MPI, OpenMP, CUDA, Docker, Linux Kernel, eBPF
+// #zh[熟悉操作系统和计算机体系结构，擅长计算机网络和高性能计算。]
+- #en[Skills] #zh[技能]: Python, C, C++, Rust, Go, Typescript, Pytorch, MPI, OpenMP, CUDA, Docker, Linux Kernel, eBPF, Dafny
 - #en[Awards] #zh[奖项]:
   - #en[Rank 9/29 (4/29 for my part), ISC24 Student Cluster Competition] 
     #zh[ISC24 国际超算竞赛第 9 名（个人负责部分第 3 名）]

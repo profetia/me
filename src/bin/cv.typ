@@ -82,15 +82,15 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China
 #chiline()
 
 *Tencent, Keen Security Lab* #h(1fr) 2024/04 -- 2024/07 \
-System R&D Intern, Tactic Intelligence Team #h(1fr) // Shanghai, China
+System R&D Intern, Tactic Intelligence Team #h(1fr) Shanghai, China
 - Renovated the abandoned Linux sandbox to support the newer kernel versions.
 - Extended the dynamic malware analysis capability of the sandbox with kernel modules and eBPF.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
 *Deemos Technologies* #h(1fr) 2023/01 -- 2023/07 \
-Software Engineer Intern #h(1fr) // Shanghai, China 
+Software Engineer Intern #h(1fr) Shanghai, China 
 \
-- Developed a full stack application to commercialize ChatAvatar, a text to 3D generation model.
+- Developed a real-time interactive avatar system based on ChatAvatar, a text to 3D generation model, at Global AI developer Conference 2023.
 - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
 
 == Activities
