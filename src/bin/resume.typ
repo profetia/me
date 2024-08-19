@@ -69,7 +69,7 @@
   #github #link("https://github.com/mousany")[github.com/mousany] 
 ]
 
-#en[#v(0.5em)]
+#en[#v(1em)]
 
 == #en[Education] #zh[教育经历]
 
@@ -90,7 +90,7 @@ GPA 3.72/4.0 #h(5pt)
 == #en[Research Experience] #zh[科研经历]
 === #en[Wireless and Mobile System Lab] #zh[无线与移动系统实验室]
 #h(1fr) 2023/12 -- #present \
-#en[Research Intern, Advised by Prof. Zhice Yang] 
+#en[Research Intern, Advised by *Prof. Zhice Yang*] 
 #zh[在杨智策教授指导下的科研]
 #h(1fr) 
 #en[Wireless Networking System, Network Physical System]
@@ -107,7 +107,7 @@ GPA 3.72/4.0 #h(5pt)
 
 === #en[Human-Cyber-Physical System Lab] #zh[人-机-物三元融合实验室]
 #h(1fr) 2022/07 -- 2023/06 \
-#en[Research Intern, Advised by Prof. Zhihao Jiang]
+#en[Research Intern, Advised by *Prof. Zhihao Jiang*]
 #zh[在江智浩教授指导下的科研]
 #h(1fr)
 #en[Formal Methods, Model Checking, Cyber-Physical System]
@@ -152,41 +152,39 @@ GPA 3.72/4.0 #h(5pt)
 
 == #en[Projects] #zh[项目经历]
 
-=== #link("https://github.com/mousany/rathernet")[Rathernet]: 
+=== Rathernet: 
 #description[
   #en[An acoustic userspace network stack written in Rust]
   #zh[基于声波传输的用户空间网络协议栈]
-] 
+] *[#link("https://github.com/mousany/rathernet")[code]]*
 #h(1fr)
 #en[Rust, Wireless Network, Network Protocol]
 #zh[Rust，无线网络，网络协议]
 \
-#v(1pt)
 - #en[Implemented all five layers in the OSI model from bottom to up with acoustic wave as the carrier.]
   #zh[使用声波作为传输介质，从 OSI 模型的底层到应用层实现了一个完整的网络协议栈。]
 // - #en[Utilized existing Rust asynchronous infrastructures and avoided manual control of scheduling and synchronization.]
 //   #zh[利用现有的 Rust 异步基础设施，避免了手动控制调度和同步。]
 - #en[Created a customized network address translation, achieving bidirectional interaction with the Internet.]
   #zh[实现了一个定制的网络地址转换，实现了与互联网的双向交互。]
-- #en[Integrated into the operating system effortlessly, supporting common transportation and application protocols.]
-  #zh[轻松集成到操作系统中，支持常见的传输和应用层协议。]
+// #en[- Integrated into the operating system effortlessly, supporting common transportation and application protocols.]
+#zh[- 轻松集成到操作系统中，支持常见的传输和应用层协议。]
 
-#v(-1pt)
+#v(-0.5em)
 
-=== #link("https://github.com/mousany/pintos")[Pintos]: 
+=== Pintos: 
 #description[
   #en[An education oriented operating system from Stanford ]
   #zh[x86 平台的多线程操作系统]
-]
+] *[#link("https://github.com/mousany/pintos")[code]]*
 #h(1fr)
-#en[C, Thread Scheduling, Virtual Memory, File System]
+#en[C, Scheduling, Virtual Memory, File System]
 #zh[C 语言，线程调度，虚拟内存，文件系统]
 \
-#v(1pt)
 - #en[Completed core functionalities of an operating system: kernel threads, user programs, virtual memory and file system.]
   #zh[完成了操作系统的核心组件：内核线程、用户程序、虚拟内存、mmap 和文件系统。]
 
-#v(-1pt)
+#v(-0.5em)
 
 === BusTub:
 #description[
@@ -197,30 +195,33 @@ GPA 3.72/4.0 #h(5pt)
 #en[Modern C++, Concurrency Control, Query Execution]
 #zh[现代 C++，并发控制，查询优化]
 \
-#v(1pt)
 - #en[Implemented core components of a DBMS: storage management, indexing, query execution and concurrency control.]
   #zh[实现了数据库管理系统的核心功能，包括存储管理、索引、查询执行和并发控制。]
 
-#v(-1pt)
+#v(-0.5em)
 
-=== #link("https://github.com/winlere/lbm")[LBM]:
+=== LBM:
 #description[
   #en[A numerical simulation of Computational Fluid Dynamics]
   #zh[基于玻尔兹曼方法的多线程流体动力模拟]
-]
+] *[#link("https://github.com/winlere/lbm")[code]]*
 #h(1fr)
 #en[HPC, Profiling, OpenMP, Micro Architecture]
 #zh[高性能计算，性能分析，OpenMP，微架构]
 \
-#v(1pt)
 - #en[Optimized the simulation with OpenMP parallelization, SIMD vectorization, memory alignment, cache blocking and software pipelining, achieving 20x speed up.]
   #zh[通过 OpenMP 并行化、SIMD 矢量化、内存对齐、缓存阻塞和软件流水线等技术优化，实现了 20 倍的速度提升。]
 
 #zh[#v(3pt)]
 
-== #en[Publication] #zh[发表论文]
+== #en[Publications] #zh[发表论文]
 
-- Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang. *"pyUPPAAL: A Python Package for Risk Analysis of CPS"*, _in ICCPS '23: Proceedings of the ACM/IEEE 14th International Conference on Cyber-Physical Systems (with CPS-IoT Week 2023)_
+- *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) *HPCA'2025* \
+  _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) *Under Review* \
+  // *Under Review in IEEE International Symposium on High-Performance Computer Architecture 2025*
+- *pyUPPAAL: A Python Package for Risk Analysis of CPS* *[#link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[paper]] | [#link("https://github.com/Jack0Chan/PyUPPAAL")[code]]* #h(1fr) *ICCPS'2023* \
+  _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) *Accepted* \
+  // *Accepted by ACM/IEEE International Conference on Cyber-Physical Systems 2023 Poster Session*
 
 #zh[#v(3pt)]
 
@@ -228,7 +229,7 @@ GPA 3.72/4.0 #h(5pt)
 // #zh[熟悉操作系统和计算机体系结构，擅长计算机网络和高性能计算。]
 - #en[Skills] #zh[技能]: Python, C, C++, Rust, Go, Typescript, Pytorch, MPI, OpenMP, CUDA, Docker, Linux Kernel, eBPF, Dafny
 - #en[Awards] #zh[奖项]:
-  - #en[Rank 9/29 (4/29 for my part), ISC24 Student Cluster Competition] 
+  - #en[Rank 9/29 (3/29 for my part), ISC24 Student Cluster Competition] 
     #zh[ISC24 国际超算竞赛第 9 名（个人负责部分第 3 名）]
     #h(1fr) 2024/04
   - #en[Outstanding Teaching Assistant, ShanghaiTech University]
@@ -237,6 +238,6 @@ GPA 3.72/4.0 #h(5pt)
   - #en[Silver Award, ICPC China Silk Road National Invitational 2023] 
     #zh[ICPC 中国丝绸之路邀请赛银奖]
     #h(1fr) 2023/05
-  - #en[Outstanding Student, ShanghaiTech University] 
+  - #en[Merit Student (Rank 3%-7%), ShanghaiTech University] 
     #zh[上海科技大学优秀学生]
     #h(1fr) 2022/10

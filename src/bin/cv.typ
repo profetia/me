@@ -42,9 +42,9 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 == Publications
 #chiline()
 
-// - *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) \
-//   _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) \
-//   *Under Review in IEEE International Symposium on High-Performance Computer Architecture 2025*
+- *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) \
+  _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) \
+  *Under Review in IEEE International Symposium on High-Performance Computer Architecture 2025*
 - *pyUPPAAL: A Python Package for Risk Analysis of CPS* #link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[doi.org/10.1145/3576841.3589611] #h(1fr) \
   _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) \
   *Accepted by ACM/IEEE International Conference on Cyber-Physical Systems 2023 Poster Session*
@@ -66,9 +66,9 @@ Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China
   - Evaluated the effectiveness of existing attack methods on newer models of LIDAR.
   - Built an embedded device to replicate the malfunction of a widely-used commodity LiDAR model.
   - Explored possible attack methods to exploit the vulnerability caused by the malfunction.
-// - *Understanding Hybrid Scheduling in Asymmetric Processors*
-//   - Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.
-//   - Benchmarked the performance of the proposed ITD-guided scheduler on virtualization and kernel-heavy workloads.
+- *Understanding Hybrid Scheduling in Asymmetric Processors*
+  - Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.
+  - Benchmarked the performance of the proposed ITD-guided scheduler on virtualization and kernel-heavy workloads.
 
 *ShanghaiTech University, Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China 
@@ -150,7 +150,7 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 - Rank 9/29 (5/29 for my part on microphysics), ISC24 Student Cluster Competition #h(1fr) 2024/04
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
-- Outstanding Student (Rank 3%-7%), ShanghaiTech University #h(1fr) 2022/10
+- Merit Student (Rank 3%-7%), ShanghaiTech University #h(1fr) 2022/10
 - Level 6, the 2019 Certified Software Professional Senior Track (formerly NOIP) #h(1fr) 2019/12
 
 == Skills
