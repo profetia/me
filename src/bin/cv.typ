@@ -23,7 +23,7 @@
 = Linshu Yang
 
 yanglsh\@shanghaitech.edu.cn |
-#link("https://github.com/mousany")[github.com/mousany] 
+#link("https://github.com/profetia")[github.com/profetia] 
 #h(1fr) Last Updated: #today.display("[year]/[month]") 
 
 == Education
@@ -120,7 +120,7 @@ Teaching Assistant #h(1fr) // Shanghai, China
 == Projects
 #chiline()
 
-*Rathernet* #link("https://github.com/mousany/rathernet")[github.com/mousany/rathernet]  #h(1fr) 2023/09 -- 2023/10 \
+*Rathernet* #link("https://github.com/profetia/rathernet")[github.com/profetia/rathernet]  #h(1fr) 2023/09 -- 2023/10 \
 An acoustic userspace network stack written in Rust #h(1fr) // #lorem(2) 
 \
 - Implemented all five layers in the OSI model from bottom to up with acoustic wave as the carrier.
@@ -128,7 +128,7 @@ An acoustic userspace network stack written in Rust #h(1fr) // #lorem(2)
 - Created a customized network address translation, achieving bidirectional interaction with the Internet.
 - Integrated into the operating system effortlessly, supporting common transportation and application protocols.
 
-*Pintos* #link("https://github.com/mousany/pintos")[github.com/mousany/pintos] #h(1fr) 2023/08 -- 2023/09 \
+*Pintos* #link("https://github.com/profetia/pintos")[github.com/profetia/pintos] #h(1fr) 2023/08 -- 2023/09 \
 An education oriented operating system from Stanford  #h(1fr) // #lorem(2) 
 \
 - Completed core components of an operating system: kernel threads, user programs, virtual memory and file system.

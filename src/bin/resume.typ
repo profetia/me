@@ -66,7 +66,7 @@
 // *Pudong, Shanghai, China* <contact>
 #contact[
   #email #link("mailto:yanglsh@shanghaitech.edu.cn")[yanglsh\@shanghaitech.edu.cn] |
-  #github #link("https://github.com/mousany")[github.com/mousany] 
+  #github #link("https://github.com/profetia")[github.com/profetia] 
 ]
 
 #en[#v(1em)]
@@ -156,7 +156,7 @@ GPA 3.72/4.0 #h(5pt)
 #description[
   #en[An acoustic userspace network stack written in Rust]
   #zh[基于声波传输的用户空间网络协议栈]
-] *[#link("https://github.com/mousany/rathernet")[code]]*
+] *[#link("https://github.com/profetia/rathernet")[code]]*
 #h(1fr)
 #en[Rust, Wireless Network, Network Protocol]
 #zh[Rust，无线网络，网络协议]
@@ -176,7 +176,7 @@ GPA 3.72/4.0 #h(5pt)
 #description[
   #en[An education oriented operating system from Stanford ]
   #zh[x86 平台的多线程操作系统]
-] *[#link("https://github.com/mousany/pintos")[code]]*
+] *[#link("https://github.com/profetia/pintos")[code]]*
 #h(1fr)
 #en[C, Scheduling, Virtual Memory, File System]
 #zh[C 语言，线程调度，虚拟内存，文件系统]
