@@ -1,6 +1,5 @@
 #import "@preview/fontawesome:0.1.0": *
-#import "../option/mod.typ": ext
-#import "../lib.typ": option
+#import "../lib.typ": option, option_ext
 
 #set page(
   margin: (x: 0.9cm, y: 1.3cm),
@@ -18,10 +17,10 @@
 #option.option("lang", lang)
 #let zh(content) = [
   #set text(font: "Microsoft YaHei")
-  #ext.lang.zh(content)
+  #option_ext.zh(content)
 ]
 #let en(content) = [
-  #ext.lang.en(content)
+  #option_ext.en(content)
 ]
 #let present = [
   #en[present]
