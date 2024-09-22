@@ -87,8 +87,18 @@ GPA 3.72/4.0 #h(5pt)
 #zh[#v(3pt)]
 
 == #en[Research Experience] #zh[科研经历]
-=== #en[Wireless and Mobile System Lab] #zh[无线与移动系统实验室]
-#h(1fr) 2023/12 -- #present \
+=== #en[Max Planck Institute for Informatics, Network and Cloud System Group] #zh[马克思普朗克信息研究所，网络与云系统组]
+#h(1fr) 2024/09 -- 2024/12 \
+#en[Research Intern, Advised by *Prof. Yiting Xia*] #zh[在夏艺婷教授指导下的科研]
+#h(1fr)
+#en[Data Center Network, Optical Network]
+#zh[数据中心网络，光网络]
+\
+- #en[Implemented traffic-aware scheduling for OpenOptics, supporting typical algorithms such as c-Through and Mordia.]
+  #zh[为 OpenOptics 实现了基于流量的调度，支持 c-Through 和 Mordia 等典型调度算法。]
+#v(-4pt)
+=== #en[ShanghaiTech University, Wireless and Mobile System Lab] #zh[上海科技大学，无线与移动系统实验室]
+#h(1fr) 2023/12 -- 2024/08 \
 #en[Research Intern, Advised by *Prof. Zhice Yang*] 
 #zh[在杨智策教授指导下的科研]
 #h(1fr) 
@@ -101,10 +111,8 @@ GPA 3.72/4.0 #h(5pt)
   #zh[探索了多种可能的攻击方法，利用一款流行的商用激光雷达的漏洞。]
 - #en[Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.] 
   #zh[提出了一个常见于恶意代码分析的 eBPF 密集场景，以展示内核空间中的 ITD 更新。]
-
-#v(-1pt)
-
-=== #en[Human-Cyber-Physical System Lab] #zh[人-机-物三元融合实验室]
+#v(-4pt)
+=== #en[ShanghaiTech University, Human-Cyber-Physical System Lab] #zh[上海科技大学，人-机-物三元融合实验室]
 #h(1fr) 2022/07 -- 2023/06 \
 #en[Research Intern, Advised by *Prof. Zhihao Jiang*]
 #zh[在江智浩教授指导下的科研]
@@ -165,9 +173,9 @@ GPA 3.72/4.0 #h(5pt)
 // - #en[Utilized existing Rust asynchronous infrastructures and avoided manual control of scheduling and synchronization.]
 //   #zh[利用现有的 Rust 异步基础设施，避免了手动控制调度和同步。]
 - #en[Created a customized network address translation, achieving bidirectional interaction with the Internet.]
-  #zh[实现了一个定制的网络地址转换，实现了与互联网的双向交互。]
+  #zh[实现了一个定制的网络地址转换，与互联网的双向交互，并轻松集成到操作系统，支持常见的传输和应用层协议。]
 // #en[- Integrated into the operating system effortlessly, supporting common transportation and application protocols.]
-#zh[- 轻松集成到操作系统中，支持常见的传输和应用层协议。]
+// #zh[- 轻松集成到操作系统中，支持常见的传输和应用层协议。]
 
 #v(-0.5em)
 
@@ -183,19 +191,19 @@ GPA 3.72/4.0 #h(5pt)
 - #en[Completed core functionalities of an operating system: kernel threads, user programs, virtual memory and file system.]
   #zh[完成了操作系统的核心组件：内核线程、用户程序、虚拟内存、mmap 和文件系统。]
 
-#v(-0.5em)
+// #v(-0.5em)
 
-=== BusTub:
-#description[
-  #en[A relational database management system from CMU ]
-  #zh[关系型数据库管理系统]
-]
-#h(1fr)
-#en[Modern C++, Concurrency Control, Query Execution]
-#zh[现代 C++，并发控制，查询优化]
-\
-- #en[Implemented core components of a DBMS: storage management, indexing, query execution and concurrency control.]
-  #zh[实现了数据库管理系统的核心功能，包括存储管理、索引、查询执行和并发控制。]
+// === BusTub:
+// #description[
+//   #en[A relational database management system from CMU ]
+//   #zh[关系型数据库管理系统]
+// ]
+// #h(1fr)
+// #en[Modern C++, Concurrency Control, Query Execution]
+// #zh[现代 C++，并发控制，查询优化]
+// \
+// - #en[Implemented core components of a DBMS: storage management, indexing, query execution and concurrency control.]
+//   #zh[实现了数据库管理系统的核心功能，包括存储管理、索引、查询执行和并发控制。]
 
 #v(-0.5em)
 
@@ -234,9 +242,9 @@ GPA 3.72/4.0 #h(5pt)
   - #en[Outstanding Teaching Assistant, ShanghaiTech University]
     #zh[上海科技大学优秀助教]
     #h(1fr) 2023/06
-  - #en[Silver Award, ICPC China Silk Road National Invitational 2023] 
-    #zh[ICPC 中国丝绸之路邀请赛银奖]
-    #h(1fr) 2023/05
+  // - #en[Silver Award, ICPC China Silk Road National Invitational 2023] 
+  //   #zh[ICPC 中国丝绸之路邀请赛银奖]
+  //   #h(1fr) 2023/05
   - #en[Merit Student (Rank 3%-7%), ShanghaiTech University] 
     #zh[上海科技大学优秀学生]
     #h(1fr) 2022/10

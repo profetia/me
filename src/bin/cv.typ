@@ -52,10 +52,12 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 == Research Experience
 #chiline()
 
-// *Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/08 -- 20254/12 \
-// Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
-
-*ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/07 \
+*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/09 -- 2024/12 \
+Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
+\
+- * OpenOptics: An Open Framework for Optical Data Center Networks *
+  - Implemented traffic-aware scheduling for OpenOptics, supporting typical scheduling algorithms such as c-Through and Mordia.
+*ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08 \
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China 
 \
 - *Understanding Precision Time Protocol in Embedded Systems*
@@ -69,7 +71,6 @@ Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China
 - *Understanding Hybrid Scheduling in Asymmetric Processors*
   - Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.
   - Benchmarked the performance of the proposed ITD-guided scheduler on virtualization and kernel-heavy workloads.
-
 *ShanghaiTech University, Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China 
 \
