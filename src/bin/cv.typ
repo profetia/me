@@ -32,7 +32,7 @@ yanglsh\@shanghaitech.edu.cn |
 *ShanghaiTech University* #h(1fr) 2021/09 -- present \
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, China 
 \
-- Overall GPA 3.72/4.0, Rank 25/178
+- Overall GPA 3.72/4.0, Rank 25/178 (15%), Major GPA 3.83/4.0
 // TODO: Computer Architecture maybe removed
 - Relevant Courses: Algorithm and Data Structure (A), /*Computer Architecture (A+), */ Computer Networks (A+), Operating System (A+),\ 
    #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided Verification (A+)

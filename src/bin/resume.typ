@@ -78,8 +78,8 @@
 #en[Bachelor of Engineering in Computer Science and Technology ]
 #zh[计算机科学与技术工程学士]
 #h(1fr) 
-GPA 3.72/4.0 #h(5pt) 
-#en[TOFEL] #zh[托福] 112
+GPA 3.72/4.0 (15%)
+// #h(5pt) #en[TOFEL] #zh[托福] 112
 - #en[Relevant Courses: Computer Architecture, Software Engineering, Computer Networks, Operating System,  \ 
   #h(83pt) Parallel Computing, Database Systems, Deep Learning, Computer Aided Verification]
   #zh[相关课程：计算机体系结构，软件工程，计算机网络，操作系统，并行计算，数据库，计算机辅助验证]
@@ -91,8 +91,8 @@ GPA 3.72/4.0 #h(5pt)
 #h(1fr) 2024/09 -- 2024/12 \
 #en[Research Intern, Advised by *Prof. Yiting Xia*] #zh[在夏艺婷教授指导下的科研]
 #h(1fr)
-#en[Data Center Network, Optical Network]
-#zh[数据中心网络，光网络]
+#en[Data Center Network, Optical Network, Programmable Switch]
+#zh[数据中心网络，光网络，可编程交换机]
 \
 - #en[Implemented traffic-aware scheduling for OpenOptics, supporting typical algorithms such as c-Through and Mordia.]
   #zh[为 OpenOptics 实现了基于流量的调度，支持 c-Through 和 Mordia 等典型调度算法。]
