@@ -56,7 +56,8 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
 \
 - * OpenOptics: An Open Framework for Optical Data Center Networks *
-  - Implemented traffic-aware scheduling for OpenOptics, supporting typical scheduling algorithms such as c-Through and Mordia.
+  - Modified libvma to support virtual output queues and perform demand estimation on elephent flows.
+  - Implemented traffic-aware scheduling for OpenOptics on Intel Tofino programmable switches, supporting typical scheduling algorithms such as c-Through and Mordia.
 *ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08 \
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China 
 \
@@ -91,7 +92,7 @@ System R&D Intern, Tactic Intelligence Team #h(1fr) Shanghai, China
 *Deemos Technologies* #h(1fr) 2023/01 -- 2023/07 \
 Software Engineer Intern #h(1fr) Shanghai, China 
 \
-- Developed a real-time interactive avatar system based on ChatAvatar, a text to 3D generation model, at Global AI developer Conference 2023.
+- Developed an interactive avatar system based on ChatAvatar, a text to 3D model, at Global AI developer Conference 2023.
 - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
 
 == Activities
@@ -150,7 +151,7 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 
 - Rank 9/29 (5/29 for my part on microphysics), ISC24 Student Cluster Competition #h(1fr) 2024/04
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
-- Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
+// - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Merit Student (Rank 3%-7%), ShanghaiTech University #h(1fr) 2022/10
 - Level 6, the 2019 Certified Software Professional Senior Track (formerly NOIP) #h(1fr) 2019/12
 
