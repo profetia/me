@@ -78,8 +78,7 @@
 #en[Bachelor of Engineering in Computer Science and Technology ]
 #zh[计算机科学与技术工程学士]
 #h(1fr) 
-GPA 3.72/4.0 (15%)
-// #h(5pt) #en[TOFEL] #zh[托福] 112
+GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 - #en[Relevant Courses: Computer Architecture, Software Engineering, Computer Networks, Operating System,  \ 
   #h(83pt) Parallel Computing, Database Systems, Deep Learning, Computer Aided Verification]
   #zh[相关课程：计算机体系结构，软件工程，计算机网络，操作系统，并行计算，数据库，计算机辅助验证]
@@ -88,7 +87,7 @@ GPA 3.72/4.0 (15%)
 
 == #en[Research Experience] #zh[科研经历]
 === #en[Max Planck Institute for Informatics, Network and Cloud System Group] #zh[马克思普朗克信息研究所，网络与云系统组]
-#h(1fr) 2024/09 -- 2024/12 \
+#h(1fr) 2024/08 -- 2024/12 \
 #en[Research Intern, Advised by *Prof. Yiting Xia*] #zh[在夏艺婷教授指导下的科研]
 #h(1fr)
 #en[Data Center Network, Optical Network, Programmable Switch]
@@ -109,7 +108,7 @@ GPA 3.72/4.0 (15%)
   #zh[在嵌入式系统上利用硬件计数器模拟硬件PTP时钟，将精确时间协议（PTP）迁移到蓝牙低功耗（BLE）上。]
 - #en[Explored possible attack methods to exploit the vulnerability of a popular commercial LIDAR model.]
   #zh[探索了多种可能的攻击方法，利用一款流行的商用激光雷达的漏洞。]
-- #en[Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.] 
+- #en[Proposed an eBPF-intensive scenario to show the effectiveness of ITD updates in the kernel for the ITD-guided scheduler.] 
   #zh[提出了一个常见于恶意代码分析的 eBPF 密集场景，以展示内核空间中的 ITD 更新。]
 #v(-4pt)
 === #en[ShanghaiTech University, Human-Cyber-Physical System Lab] #zh[上海科技大学，人-机-物三元融合实验室]
@@ -137,8 +136,8 @@ GPA 3.72/4.0 (15%)
 #h(1fr) 
 #en[Malware Analysis, Linux, eBPF] #zh[恶意代码分析，Linux，eBPF]
 #en[
-- Renovated the abandoned Linux sandbox to support the newer kernel versions.
-- Extended the dynamic memory analysis capability of the sandbox with kernel modules and eBPF.
+- Recreated the Linux sandbox for malware analysis by upgrading the kernel and utilizing new kernel features.
+- Extended dynamic analysis capabilities of the Linux sandbox with customized tracing tools like eBPF and kernel modules.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 ]
 #zh[
@@ -239,12 +238,15 @@ GPA 3.72/4.0 (15%)
   - #en[Rank 9/29 (3/29 for my part), ISC24 Student Cluster Competition] 
     #zh[ISC24 国际超算竞赛第 9 名（个人负责部分第 3 名）]
     #h(1fr) 2024/04
-  - #en[Outstanding Teaching Assistant, ShanghaiTech University]
-    #zh[上海科技大学优秀助教]
-    #h(1fr) 2023/06
+  // - #en[Outstanding Teaching Assistant, ShanghaiTech University]
+  //   #zh[上海科技大学优秀助教]
+  //   #h(1fr) 2023/06
   // - #en[Silver Award, ICPC China Silk Road National Invitational 2023] 
   //   #zh[ICPC 中国丝绸之路邀请赛银奖]
   //   #h(1fr) 2023/05
   - #en[Merit Student (Rank 3%-7%), ShanghaiTech University] 
-    #zh[上海科技大学优秀学生]
+    #zh[2022 年上海科技大学三好学生（3%-7%）]
     #h(1fr) 2022/10
+  - #en[Level 6, the 2019 Certified Software Professional Senior Track (formerly NOIP)]
+    #zh[2019 年全国青少年信息学奥林匹克联赛提高组 6 级]
+    #h(1fr) 2019/12

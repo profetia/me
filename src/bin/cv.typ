@@ -36,42 +36,42 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 // TODO: Computer Architecture maybe removed
 - Relevant Courses: Algorithm and Data Structure (A), /*Computer Architecture (A+), */ Computer Networks (A+), Operating System (A+),\ 
    #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided Verification (A+)
-- Standardized Test: 
-  - TOFEL: 112 (Reading 30 + Listening 30 + Speaking 24 + Writing 28)
+// - Standardized Test: 
+//   - TOFEL: 112 (Reading 30 + Listening 30 + Speaking 24 + Writing 28)
 
 == Publications
 #chiline()
 
 - *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) \
   _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) \
-  *Under Review in IEEE International Symposium on High-Performance Computer Architecture 2025*
+  *Under Review in _IEEE International Symposium on High-Performance Computer Architecture 2025_*
 - *pyUPPAAL: A Python Package for Risk Analysis of CPS* #link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[doi.org/10.1145/3576841.3589611] #h(1fr) \
   _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) \
-  *Accepted by ACM/IEEE International Conference on Cyber-Physical Systems 2023 Poster Session*
+  *Published in _ACM/IEEE International Conference on Cyber-Physical Systems 2023_*
 
 == Research Experience
 #chiline()
 
-*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/09 -- 2024/12 \
+*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/08 -- 2024/12 \
 Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
 \
 - * OpenOptics: An Open Framework for Optical Data Center Networks *
-  - Modified libvma to support virtual output queues and perform demand estimation on elephent flows.
-  - Implemented traffic-aware scheduling for OpenOptics on Intel Tofino programmable switches, supporting typical scheduling algorithms such as c-Through and Mordia.
+  - Modified `libvma` to implement virtual output queues and perform demand estimation on elephant flows.
+  - Built a realistic end-to-end evaluation platform for traffic-aware schedulers in DCN based on OpenOptics with Intel Tofino programmable switches, supporting typical algorithms such as c-Through and Mordia.
 *ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08 \
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China 
 \
-- *Understanding Precision Time Protocol in Embedded Systems*
-  - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with specific counters.
-  - Implemented a synchronized sound recording system across 20 devices to demonstrate the capabilities of our method.
+- *Understanding Hybrid Scheduling in Asymmetric Processors*
+  - Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate the effectiveness of ITD updates in kernel space for the proposed ITD-guided scheduler.
+  - Benchmarked the performance of the proposed scheduler on virtualization related and other kernel-heavy workloads.
 // TODO: Replace with an official title if needed
 - *Targeted Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
-  - Evaluated the effectiveness of existing attack methods on newer models of LIDAR.
-  - Built an embedded device to replicate the malfunction of a widely-used commodity LiDAR model.
+  - Evaluated existing attack methods on newer models of LIDAR and proved their ineffectiveness.
+  - Built an embedded device to effectively replicate the malfunction of a widely-used commodity LiDAR model.
   - Explored possible attack methods to exploit the vulnerability caused by the malfunction.
-- *Understanding Hybrid Scheduling in Asymmetric Processors*
-  - Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate ITD updates in kernel space.
-  - Benchmarked the performance of the proposed ITD-guided scheduler on virtualization and kernel-heavy workloads.
+- *Understanding Precision Time Protocol in Embedded Systems: A Measurement Study*
+  - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with specific counters.
+  - Implemented a synchronized sound recording system across 20 devices to demonstrate the capabilities of our method.
 *ShanghaiTech University, Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
 Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China 
 \
@@ -85,8 +85,8 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China
 
 *Tencent, Keen Security Lab* #h(1fr) 2024/04 -- 2024/07 \
 System R&D Intern, Tactic Intelligence Team #h(1fr) Shanghai, China
-- Renovated the abandoned Linux sandbox to support the newer kernel versions.
-- Extended the dynamic malware analysis capability of the sandbox with kernel modules and eBPF.
+- Recreated the Linux sandbox for malware analysis by upgrading the kernel and utilizing new kernel features.
+- Extended dynamic analysis capabilities of the Linux sandbox with customized tracing tools like eBPF and kernel modules.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
 *Deemos Technologies* #h(1fr) 2023/01 -- 2023/07 \
@@ -157,7 +157,7 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 
 == Skills
 #chiline()
-
+*Linguistic Proficiency*: Chinese (Native), English (Advanced, TOEFL 112: R30/L30/S24/W28) \
 *Programming Languages*: Python, C, C++, Rust, Golang, Typescript, Shell, SQL \
 *Tools and Frameworks*: PyTorch, MPI, OpenMP, CUDA, Linux Kernel, eBPF, UPPAAL, Dafny, Blender \
 *DevOps Technologies*: Kubernetes, Docker, Gitlab, Postgres, Cloudflare Worker
