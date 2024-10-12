@@ -87,7 +87,7 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 
 == #en[Research Experience] #zh[科研经历]
 === #en[Max Planck Institute for Informatics, Network and Cloud System Group] #zh[马克思普朗克信息研究所，网络与云系统组]
-#h(1fr) 2024/08 -- 2024/12 \
+#h(1fr) 2024/09 -- 2024/11 \
 #en[Research Intern, Advised by *Prof. Yiting Xia*] #zh[在夏艺婷教授指导下的科研]
 #h(1fr)
 #en[Data Center Network, Optical Network, Programmable Switch]
@@ -235,8 +235,8 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 // #zh[熟悉操作系统和计算机体系结构，擅长计算机网络和高性能计算。]
 - #en[Skills] #zh[技能]: Python, C, C++, Rust, Go, Typescript, Pytorch, MPI, OpenMP, CUDA, Docker, Linux Kernel, eBPF, Dafny
 - #en[Awards] #zh[奖项]:
-  - #en[Rank 9/29 (3/29 for my part), ISC24 Student Cluster Competition] 
-    #zh[ISC24 国际超算竞赛第 9 名（个人负责部分第 3 名）]
+  - #en[Rank 9/29 (3/29 for my part), ISC'24 Student Cluster Competition] 
+    #zh[ISC'24 国际超算竞赛第 9 名（个人负责部分第 3 名）]
     #h(1fr) 2024/04
   // - #en[Outstanding Teaching Assistant, ShanghaiTech University]
   //   #zh[上海科技大学优秀助教]

@@ -52,23 +52,22 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 == Research Experience
 #chiline()
 
-*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/08 -- 2024/12 \
+*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/09 -- 2024/11 \
 Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
 \
 - * OpenOptics: An Open Framework for Optical Data Center Networks *
   - Modified `libvma` to implement virtual output queues and perform demand estimation on elephant flows.
-  - Built a realistic end-to-end evaluation platform for traffic-aware schedulers in DCN based on OpenOptics with Intel Tofino programmable switches, supporting typical algorithms such as c-Through and Mordia.
+  - Built a realistic end-to-end evaluation platform for traffic-aware schedulers in DCN with Intel Tofino programmable switches, enabling reliable comparisons between scheduling algorithms such as c-Through and Mordia.
 *ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08 \
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China 
 \
 - *Understanding Hybrid Scheduling in Asymmetric Processors*
-  - Proposed an eBPF-intensive scenario, common in malware analysis, to demonstrate the effectiveness of ITD updates in kernel space for the proposed ITD-guided scheduler.
-  - Benchmarked the performance of the proposed scheduler on virtualization related and other kernel-heavy workloads.
+  - Identified a bottleneck scenario with eBPF-intensive workloads, common in malware analysis, for the Linux's CFS and demonstrated the effectiveness of ITD updates in kernel space for the proposed ITD-guided scheduler.
+  - Provided a comprehensive performance benchmark of the proposed scheduler on virtualization related and other kernel-heavy workloads.
 // TODO: Replace with an official title if needed
-- *Targeted Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
-  - Evaluated existing attack methods on newer models of LIDAR and proved their ineffectiveness.
-  - Built an embedded device to effectively replicate the malfunction of a widely-used commodity LiDAR model.
-  - Explored possible attack methods to exploit the vulnerability caused by the malfunction.
+- *Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
+  - Evaluated the robustness of existing attack methods on newer models of LIDAR, proving their ineffectiveness.
+  - Built an adversarial device effectively replicating a malfunction of a widely-used commodity LIDAR model and used it to explore possible attack methods exploiting this vulnerability.
 - *Understanding Precision Time Protocol in Embedded Systems: A Measurement Study*
   - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with specific counters.
   - Implemented a synchronized sound recording system across 20 devices to demonstrate the capabilities of our method.
@@ -98,15 +97,15 @@ Software Engineer Intern #h(1fr) Shanghai, China
 == Activities
 #chiline()
 
-*ISC24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04 \
+*ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04 \
 Team Leader #h(1fr) // Shanghai, China 
-- Responsible for implementing GPU offloading and code optimization for microphysics, a climate simulation application derived from the ICON model. 
+- Responsible for implementing GPU offloading and code optimization for microphysics, a climate simulation application derived from the ICON model, achieving strong scaling on CPU and more 200x speedup on GPU.
 - Guided the team on MPI profiling and optimization, reducing the time spend on communication by 50%.
 
 *Geekpie Association* #h(1fr) 2022/08 -- 2023/07 \
 Vice President #h(1fr) // Shanghai, China 
 \
-- Developed the frontend of Coursebench, a course rating platform at ShanghaiTech University.
+- Developed the frontend of Coursebench, a popular course rating platform at ShanghaiTech University.
 - Organized events including Geekpie Games and Geekpie Linux Seminar, with more than 1k students participated.
 
 *School of Information Science and Technology* #h(1fr) 2023/02 -- 2023/06 \
@@ -133,12 +132,12 @@ An acoustic userspace network stack written in Rust #h(1fr) // #lorem(2)
 *Pintos* #link("https://github.com/profetia/pintos")[github.com/profetia/pintos] #h(1fr) 2023/08 -- 2023/09 \
 An education oriented operating system from Stanford  #h(1fr) // #lorem(2) 
 \
-- Completed core components of an operating system: kernel threads, user programs, virtual memory and file system.
+- Implemented core components of an operating system: kernel threads, user programs, virtual memory and file system.
 
 *BusTub* #h(1fr) 2023/11 -- 2023/12 \
 A relational database management system from CMU implemented in C++  #h(1fr) // #lorem(2) 
 \
-- Implemented core functionalities of a DBMS including storage management, indexing, query execution and concurrency control.
+- Completed core functions of a DBMS including storage management, indexing, query execution and concurrency control.
 
 *LBM* #link("https://github.com/winlere/lbm")[github.com/winlere/lbm] #h(1fr) 2023/04 -- 2023/05 \
 An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #lorem(2) 
@@ -149,7 +148,7 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 == Awards
 #chiline()
 
-- Rank 9/29 (5/29 for my part on microphysics), ISC24 Student Cluster Competition #h(1fr) 2024/04
+- Rank 9/29 (5/29 for my part on microphysics), ISC'24 Student Cluster Competition #h(1fr) 2024/04
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
 - Merit Student (Rank 3%-7%), ShanghaiTech University #h(1fr) 2022/10
@@ -159,5 +158,5 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 #chiline()
 *Linguistic Proficiency*: Chinese (Native), English (Advanced, TOEFL 112: R30/L30/S24/W28) \
 *Programming Languages*: Python, C, C++, Rust, Golang, Typescript, Shell, SQL \
-*Tools and Frameworks*: PyTorch, MPI, OpenMP, CUDA, Linux Kernel, eBPF, UPPAAL, Dafny, Blender \
+*Tools and Frameworks*: PyTorch, OpenMP, MPI, CUDA, Linux Kernel, eBPF, UPPAAL, Dafny, Blender \
 *DevOps Technologies*: Kubernetes, Docker, Gitlab, Postgres, Cloudflare Worker
