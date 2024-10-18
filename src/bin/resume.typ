@@ -1,4 +1,3 @@
-#import "@preview/fontawesome:0.1.0": *
 #import "../lib.typ": option, option_ext
 
 #set page(
@@ -6,22 +5,13 @@
 )
 #set par(justify: true)
 
-#let today = datetime.today()
-#let dark = rgb("#131A28")
-#let github = box(
-  fa-icon("github", fa-set: "Brands", fill: dark),
-)
-#let email = box(fa-icon("envelope", fill: dark))
-
 #let lang = "en"
 #option.option("lang", lang)
 #let zh(content) = [
   #set text(font: "Microsoft YaHei")
   #option_ext.zh(content)
 ]
-#let en(content) = [
-  #option_ext.en(content)
-]
+#let en = option_ext.en
 #let present = [
   #en[present]
   #zh[至今]
@@ -30,45 +20,53 @@
 #show link: underline
 #show heading.where(level: 1): it => [
   #set align(center)
-  #set text(size: 28pt)
+  // #set text(size: 28pt)
+  #set text(size: 24pt)
   #it.body
 ]
 #show heading.where(level: 2): it => [
-  #set text(size: 14pt)
+  #v(0.2em)
+  // #set text(size: 14pt)
   #set block(above: 0.5em, below: 0.5em)
-  #v(0.1em)
   #it.body
   #v(-3pt)
-  #line(length: 100%)
+  #[
+    #set text(style: "normal", weight: "regular")
+    #line(length: 100%)
+  ]
 ]
 #show heading.where(level: 3): it => [
   #it.body
 ]
-#let contact(it) = [
-  #set align(center)
-  #set text(size: 12pt)
-  #set block(above: 0.5em, below: 0.5em)
-  #block[
-    #align(horizon)[
-      #it
-    ]
-  ]
-]
-#let description(it) = [
+#let normal(it) = [
   #set text(style: "normal", weight: "regular")
   #it
 ]
 
+#let contact(..its) = {
+  let values = its.pos().join(" | ")
+  [
+    #set align(center)
+    // #set text(size: 12pt)
+    #set block(above: 0.5em, below: 0.5em)
+    #block[
+      #align(horizon)[
+        #values
+      ]
+    ]
+  ]
+}
+
+
 = #en[Linshu Yang] #zh[杨林树]
-#en[#v(-0.75em)]
+#en[#v(-0.5em)]
 
-// *Pudong, Shanghai, China* <contact>
-#contact[
-  #email #link("mailto:yanglsh@shanghaitech.edu.cn")[yanglsh\@shanghaitech.edu.cn] |
-  #github #link("https://github.com/profetia")[github.com/profetia] 
-]
+#contact(
+  [yanglsh\@shanghaitech.edu.cn], 
+  [#link("https://github.com/profetia")[github.com/profetia]]
+)
 
-#en[#v(1em)]
+#en[#v(0.8em)]
 
 == #en[Education] #zh[教育经历]
 
@@ -85,6 +83,15 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 
 #zh[#v(3pt)]
 
+== #en[Publications] #zh[发表论文]
+
+- *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) *HPCA'2025* \
+  _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) *Under Review* \
+- *pyUPPAAL: A Python Package for Risk Analysis of CPS* *[#link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[paper]] | [#link("https://github.com/Jack0Chan/PyUPPAAL")[code]]* #h(1fr) *ICCPS'2023* \
+  _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) *Published* \
+
+#zh[#v(3pt)]
+
 == #en[Research Experience] #zh[科研经历]
 === #en[Max Planck Institute for Informatics, Network and Cloud System Group] #zh[马克思普朗克信息研究所，网络与云系统组]
 #h(1fr) 2024/09 -- 2024/11 \
@@ -93,8 +100,8 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 #en[Data Center Network, Optical Network, Programmable Switch]
 #zh[数据中心网络，光网络，可编程交换机]
 \
-- #en[Implemented traffic-aware scheduling for OpenOptics, supporting typical algorithms such as c-Through and Mordia.]
-  #zh[为 OpenOptics 实现了基于流量的调度，支持 c-Through 和 Mordia 等典型调度算法。]
+- #en[Built a realistic evaluation platform for traffic-aware schedulers in DCN with Intel Tofino programmable switches, enabling reliable comparisons between scheduling algorithms such as c-Through and Mordia.]
+  #zh[使用 Intel Tofino 可编程交换机构建了一个真实的端到端评估平台，用于数据中心网络中的流量感知调度算法。]
 #v(-4pt)
 === #en[ShanghaiTech University, Wireless and Mobile System Lab] #zh[上海科技大学，无线与移动系统实验室]
 #h(1fr) 2023/12 -- 2024/08 \
@@ -104,12 +111,12 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 #en[Wireless Networking System, Network Physical System]
 #zh[无线网络系统，网络物理系统，操作系统内核]
 \
-- #en[Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.]
-  #zh[在嵌入式系统上利用硬件计数器模拟硬件PTP时钟，将精确时间协议（PTP）迁移到蓝牙低功耗（BLE）上。]
-- #en[Explored possible attack methods to exploit the vulnerability of a popular commercial LIDAR model.]
-  #zh[探索了多种可能的攻击方法，利用一款流行的商用激光雷达的漏洞。]
-- #en[Proposed an eBPF-intensive scenario to show the effectiveness of ITD updates in the kernel for the ITD-guided scheduler.] 
-  #zh[提出了一个常见于恶意代码分析的 eBPF 密集场景，以展示内核空间中的 ITD 更新。]
+// - #en[Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating hardware PTP clock with hardware counters.]
+//   #zh[在嵌入式系统上利用硬件计数器模拟硬件PTP时钟，将精确时间协议（PTP）迁移到蓝牙低功耗（BLE）上。]
+- #en[Identified a bottleneck scenario with eBPF-intensive workloads demonstrating the effectiveness of the proposed ITD-guided scheduler and providing a comprehensive benchmark on virtualization related workloads.]
+  #zh[发现了一个 eBPF 密集型工作负载的瓶颈场景，证明了提出的 ITD 引导调度器的有效性，并对虚拟化相关工作负载进行了全面的性能评估。]
+- #en[Evaluated the robustness of existing attack methods on newer models of LIDAR, proving their ineffectiveness and built an adversarial device effectively replicating a malfunction of a widely-used commodity LIDAR model.]
+  #zh[评估了现有攻击方法对新型激光雷达的鲁棒性，证明了它们的无效性，并构建了一个复现一种广泛使用的激光雷达模型故障的对抗设备。]
 #v(-4pt)
 === #en[ShanghaiTech University, Human-Cyber-Physical System Lab] #zh[上海科技大学，人-机-物三元融合实验室]
 #h(1fr) 2022/07 -- 2023/06 \
@@ -119,8 +126,8 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 #en[Formal Methods, Model Checking, Cyber-Physical System]
 #zh[形式化方法，模型验证，网络物理系统]
 \
-- #en[Maintained a Python library for verification of time automata and partially observable systems.]
-  #zh[维护了一个基于 UPPAAL 验证求解器的时间自动机模型验证工具链。]
+- #en[Built a Python toolkit to work with UPPAAL with implementation of common use cases and algorithms in CPS.]
+  #zh[构建了一个 Python 工具链，用于与 UPPAAL 验证求解器配合使用，实现了网络物理系统中的常见用例和算法。]
 - #en[Implemented and optimized a novel model-checking based cardiac diagnoser to achieve real-time analysis and diagnosis on cardiac electrical signals.]
   #zh[实现并优化了一种基于抽象细化模型验证方法的错误诊断算法，并应用于对心脏电信号的实时分析和诊断。]
 // - #en[Deployed a Kubernetes cluster to manage applications of HCPS Lab, providing TLS certificate automation, persistent volumes and load balancers.]
@@ -137,7 +144,7 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 #en[Malware Analysis, Linux, eBPF] #zh[恶意代码分析，Linux，eBPF]
 #en[
 - Recreated the Linux sandbox for malware analysis by upgrading the kernel and utilizing new kernel features.
-- Extended dynamic analysis capabilities of the Linux sandbox with customized tracing tools like eBPF and kernel modules.
+- Extended dynamic analysis capabilities of the Linux sandbox using customized probing tools in eBPF and kernel modules.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 ]
 #zh[
@@ -159,7 +166,7 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 == #en[Projects] #zh[项目经历]
 
 === Rathernet: 
-#description[
+#normal[
   #en[An acoustic userspace network stack written in Rust]
   #zh[基于声波传输的用户空间网络协议栈]
 ] *[#link("https://github.com/profetia/rathernet")[code]]*
@@ -179,7 +186,7 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 #v(-0.5em)
 
 === Pintos: 
-#description[
+#normal[
   #en[An education oriented operating system from Stanford ]
   #zh[x86 平台的多线程操作系统]
 ] *[#link("https://github.com/profetia/pintos")[code]]*
@@ -193,7 +200,7 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 // #v(-0.5em)
 
 // === BusTub:
-// #description[
+// #normal[
 //   #en[A relational database management system from CMU ]
 //   #zh[关系型数据库管理系统]
 // ]
@@ -207,7 +214,7 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 #v(-0.5em)
 
 === LBM:
-#description[
+#normal[
   #en[A numerical simulation of Computational Fluid Dynamics]
   #zh[基于玻尔兹曼方法的多线程流体动力模拟]
 ] *[#link("https://github.com/winlere/lbm")[code]]*
@@ -217,17 +224,6 @@ GPA 3.72/4.0 (15%), #en[TOFEL] #zh[托福] 112
 \
 - #en[Optimized the simulation with OpenMP parallelization, SIMD vectorization, memory alignment, cache blocking and software pipelining, achieving 20x speed up.]
   #zh[通过 OpenMP 并行化、SIMD 矢量化、内存对齐、缓存阻塞和软件流水线等技术优化，实现了 20 倍的速度提升。]
-
-#zh[#v(3pt)]
-
-== #en[Publications] #zh[发表论文]
-
-- *Understanding Hybrid Scheduling in Asymmetric Processors* #h(1fr) *HPCA'2025* \
-  _Chenfei Gao, *Linshu Yang*, Zhice Yang_ #h(1fr) *Under Review* \
-  // *Under Review in IEEE International Symposium on High-Performance Computer Architecture 2025*
-- *pyUPPAAL: A Python Package for Risk Analysis of CPS* *[#link("https://dl.acm.org/doi/abs/10.1145/3576841.3589611")[paper]] | [#link("https://github.com/Jack0Chan/PyUPPAAL")[code]]* #h(1fr) *ICCPS'2023* \
-  _Guangyao Chen, *Linshu Yang*, Haochen Yang, Peilin He, Zhihao Jiang_ #h(1fr) *Accepted* \
-  // *Accepted by ACM/IEEE International Conference on Cyber-Physical Systems 2023 Poster Session*
 
 #zh[#v(3pt)]
 
