@@ -56,7 +56,7 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
 \
 - * OpenOptics: An Open Framework for Optical Data Center Networks *
-  - Modified `libvma` to implement virtual output queues and perform demand estimation on elephant flows.
+  // - Modified `libvma` to implement virtual output queues and perform demand estimation on elephant flows.
   - Built a realistic end-to-end evaluation platform for traffic-aware schedulers in DCN with Intel Tofino programmable switches, enabling reliable comparisons between scheduling algorithms such as c-Through and Mordia.
 *ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08 \
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China 
@@ -85,7 +85,8 @@ Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China
 *Tencent, Keen Security Lab* #h(1fr) 2024/04 -- 2024/07 \
 System R&D Intern, Tactic Intelligence Team #h(1fr) Shanghai, China
 - Recreated the Linux sandbox for malware analysis by upgrading the kernel and utilizing new kernel features.
-- Extended dynamic analysis capabilities of the Linux sandbox with customized tracing tools like eBPF and kernel modules.
+- Extended the dynamic observation and analysis capabilities of the Linux sandbox using customized probing tools in eBPF and kernel modules.
+// - Extended dynamic analysis capabilities of the Linux sandbox with customized probing tools in eBPF and kernel modules.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
 *Deemos Technologies* #h(1fr) 2023/01 -- 2023/07 \
