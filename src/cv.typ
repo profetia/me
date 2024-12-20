@@ -1,4 +1,4 @@
-#show heading: set text(font: "Linux Biolinum")
+#show heading: set text(font: "Linux Biolinum O")
 #show link: underline 
 
 // Uncomment the following lines to adjust the size of text
@@ -8,34 +8,30 @@
 // )
 
 // Feel free to change the margin below to best fit your own CV
-#set page(
-  margin: (x: 0.9cm, y: 1.3cm),
-)
+#set page(margin: (x: 0.9cm, y: 1.3cm))
 
 // For more customizable options, please refer to official reference: https://typst.app/docs/reference/
 
 #set par(justify: true)
 
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
-
-#let today = datetime.today()
+#let chiline() = { v(-3pt); line(length: 100%); v(-5pt) }
 
 = Linshu Yang
 
 yanglsh\@shanghaitech.edu.cn |
 #link("https://github.com/profetia")[github.com/profetia] 
-#h(1fr) Last Updated: #today.display("[year]/[month]") 
+#h(1fr) Last Updated: #datetime.today().display("[year]/[month]") 
 
 == Education
 #chiline()
 
-*ShanghaiTech University* #h(1fr) 2021/09 -- present \
-Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, China 
-\
+*ShanghaiTech University* #h(1fr) 2021/09 -- present\
+Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, China\
 - Overall GPA 3.72/4.0, Rank 25/178 (Top 15%), Major GPA 3.83/4.0
 // TODO: Computer Architecture maybe removed
-- Relevant Courses: Algorithms and Data Structure (A), /*Computer Architecture (A+), */ Computer Networks (A+), Operating Systems (A+),\ 
-   #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided Verification (A+)
+- Relevant Courses: Algorithms and Data Structure (A),/*Computer Architecture (A+), */ Computer Networks (A+), Operating
+  Systems (A+),\ 
+  #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided Verification (A+)
 // - Standardized Test: 
 //   - TOFEL: 112 (Reading 30 + Listening 30 + Speaking 24 + Writing 28)
 
@@ -52,64 +48,68 @@ Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai, Chi
 == Research Experience
 #chiline()
 
-*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/09 -- 2024/11 \
-Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany
-\
-- * OpenOptics: An Open Framework for Optical Data Center Networks *
+*Max Planck Institute for Informatics, Network and Cloud System Group* #h(1fr) 2024/09 -- 2024/11\
+Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
+- * OpenOptics: An Open Framework for Optical Data Center Networks*
   // - Modified `libvma` to implement virtual output queues and perform demand estimation on elephant flows.
-  - Built a realistic end-to-end evaluation platform for traffic-aware schedulers in DCN with Intel Tofino programmable switches, enabling reliable comparisons between scheduling algorithms such as c-Through and Mordia.
-*ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08 \
-Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China 
-\
+  - Built a realistic end-to-end evaluation platform for traffic-aware schedulers in DCN with Intel Tofino programmable
+    switches, enabling reliable comparisons between scheduling algorithms such as c-Through and Mordia.
+*ShanghaiTech University, Wireless and Mobile System Lab* #h(1fr) 2023/12 -- 2024/08\
+Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
 - *Understanding Hybrid Scheduling in Asymmetric Processors*
-  - Identified a bottleneck in eBPF-intensive workloads, common in malware analysis, for the Linux CFS and demonstrated the effectiveness of ITD updates in kernel space for the proposed ITD-guided scheduler.
-  - Provided a comprehensive performance benchmark of the proposed scheduler for virtualization and other kernel-heavy tasks.
+  - Identified a bottleneck in eBPF-intensive workloads, common in malware analysis, for the Linux CFS and demonstrated the
+    effectiveness of ITD updates in kernel space for the proposed ITD-guided scheduler.
+  - Provided a comprehensive performance benchmark of the proposed scheduler for virtualization and other kernel-heavy
+    tasks.
 // TODO: Replace with an official title if needed
 - *Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
   - Evaluated the robustness of existing attack methods on newer LIDAR models, proving their ineffectiveness.
-  - Built an adversarial device replicating a malfunction of a widely-used commodity LIDAR model and used it to explore possible attack methods exploiting this vulnerability.
+  - Built an adversarial device replicating a malfunction of a widely-used commodity LIDAR model and used it to explore
+    possible attack methods exploiting this vulnerability.
 - *Understanding Precision Time Protocol in Embedded Systems: A Measurement Study*
-  - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating the hardware PTP clock with specific counters.
+  - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on embedded systems by emulating the hardware
+    PTP clock with specific counters.
   - Implemented a synchronized sound recording system across 20 devices to demonstrate the method's capabilities.
-*ShanghaiTech University, Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06 \
-Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China 
-\
+*ShanghaiTech University, Human-Cyber-Physical System Lab* #h(1fr) 2022/07 -- 2023/06\
+Research Intern, Advised by *Prof. Zhihao Jiang* #h(1fr) Shanghai, China\
 - *Model-Checking-Based Diagnosis Assistance for Cardiac Ablation*
   - Built a Python toolkit for UPPAAL with implementation of common use cases and algorithms in CPS.
-  - Implemented and optimized a novel model-checking-based cardiac diagnoser to achieve real-time analysis and diagnosis based on cardiac electrical signals.
+  - Implemented and optimized a novel model-checking-based cardiac diagnoser to achieve real-time analysis and diagnosis
+    based on cardiac electrical signals.
 // - Deployed a Kubernetes cluster to manage applications of HCPS Lab, providing TLS certificate automation, persistent volumes and load balancers.
-  
+ 
 == Work Experience
 #chiline()
 
-*Tencent, Keen Security Lab* #h(1fr) 2024/04 -- 2024/07 \
+*Tencent, Keen Security Lab* #h(1fr) 2024/04 -- 2024/07\
 System R&D Intern, Tactic Intelligence Team #h(1fr) Shanghai, China
 - Upgraded the Linux sandbox for malware analysis by updating the kernel and utilizing new kernel features.
-- Extended the dynamic observation and analysis capabilities of the Linux sandbox using customized probing tools in eBPF and kernel modules.
+- Extended the dynamic observation and analysis capabilities of the Linux sandbox using customized probing tools in eBPF
+  and kernel modules.
 // - Extended dynamic analysis capabilities of the Linux sandbox with customized probing tools in eBPF and kernel modules.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log parser with PEG.
 
-*Deemos Technologies* #h(1fr) 2023/01 -- 2023/07 \
-Software Engineer Intern #h(1fr) Shanghai, China 
-\
+*Deemos Technologies* #h(1fr) 2023/01 -- 2023/07\
+Software Engineer Intern #h(1fr) Shanghai, China\
 - Built an interactive avatar system based on ChatAvatar, a text to 3D model, at Global AI Developer Conference 2023.
 - Designed and implemented a Blender tool to reshape and adjust cloth mesh according to human models.
 
 == Activities
 #chiline()
 
-*ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04 \
+*ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04\
 Team Leader #h(1fr) // Shanghai, China 
-- Implemented GPU offloading and code optimization for microphysics, a climate simulation application derived from the ICON model, achieving strong scaling on CPU and a 200x acceleration on GPU.
+- Implemented GPU offloading and code optimization for microphysics, a climate simulation application derived from the
+  ICON model, achieving strong scaling on CPU and a 200x acceleration on GPU.
 - Guided the team through MPI profiling and optimization, reducing the time spend on communication by 50%.
 
-*Geekpie Association* #h(1fr) 2022/08 -- 2023/07 \
+*Geekpie Association* #h(1fr) 2022/08 -- 2023/07\
 Vice President #h(1fr) // Shanghai, China 
 \
 - Developed the frontend of Coursebench, a popular course-rating platform at ShanghaiTech University.
 - Organized events including Geekpie Games and Geekpie Linux Seminar, with more than 1,000 students participated.
 
-*School of Information Science and Technology* #h(1fr) 2023/02 -- 2023/06 \
+*School of Information Science and Technology* #h(1fr) 2023/02 -- 2023/06\
 Teaching Assistant #h(1fr) // Shanghai, China 
 \
 - CS100: Computer Programming, ShanghaiTech University
@@ -122,7 +122,7 @@ Teaching Assistant #h(1fr) // Shanghai, China
 == Projects
 #chiline()
 
-*Rathernet* #link("https://github.com/profetia/rathernet")[github.com/profetia/rathernet]  #h(1fr) 2023/09 -- 2023/10 \
+*Rathernet* #link("https://github.com/profetia/rathernet")[github.com/profetia/rathernet] #h(1fr) 2023/09 -- 2023/10\
 An acoustic userspace network stack written in Rust #h(1fr) // #lorem(2) 
 \
 - Implemented all five layers of the OSI model from bottom to up, using acoustic wave as the carrier.
@@ -130,20 +130,21 @@ An acoustic userspace network stack written in Rust #h(1fr) // #lorem(2)
 - Created a customized network address translation, achieving bidirectional interaction with the Internet.
 - Integrated the program into the operating system, enabling common transportation and application protocols.
 
-*Pintos* #link("https://github.com/profetia/pintos")[github.com/profetia/pintos] #h(1fr) 2023/08 -- 2023/09 \
-An education-oriented operating system from Stanford  #h(1fr) // #lorem(2) 
+*Pintos* #link("https://github.com/profetia/pintos")[github.com/profetia/pintos] #h(1fr) 2023/08 -- 2023/09\
+An education-oriented operating system from Stanford #h(1fr) // #lorem(2) 
 \
 - Implemented core operating system components: kernel threads, user programs, virtual memory, and file system.
 
-*BusTub* #h(1fr) 2023/11 -- 2023/12 \
-A relational database management system from CMU implemented in C++  #h(1fr) // #lorem(2) 
+*BusTub* #h(1fr) 2023/11 -- 2023/12\
+A relational database management system from CMU implemented in C++ #h(1fr) // #lorem(2) 
 \
 - Completed core DBMS functions including storage management, indexing, query execution, and concurrency control.
 
-*LBM* #link("https://github.com/winlere/lbm")[github.com/winlere/lbm] #h(1fr) 2023/04 -- 2023/05 \
-An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #lorem(2) 
+*LBM* #link("https://github.com/winlere/lbm")[github.com/winlere/lbm] #h(1fr) 2023/04 -- 2023/05\
+An optimized numerical simulation of Computational Fluid Dynamics #h(1fr) // #lorem(2) 
 \
-- Optimized the simulation with techniques including OpenMP parallelization, SIMD vectorization, memory alignment, cache blocking, and software pipelining.
+- Optimized the simulation with techniques including OpenMP parallelization, SIMD vectorization, memory alignment, cache
+  blocking, and software pipelining.
 - Achieved a 20x speed increase over baseline on Intel Xeon E5-2698 v4 processor (20 cores).
 
 == Awards
@@ -157,7 +158,7 @@ An optimized numerical simulation of Computational Fluid Dynamics   #h(1fr) // #
 
 == Skills
 #chiline()
-*Linguistic Proficiency*: Chinese (Native), English (Advanced, TOEFL 112: R30/L30/S24/W28) \
-*Programming Languages*: Python, C, C++, Rust, Golang, Typescript, Shell, SQL \
-*Tools and Frameworks*: PyTorch, OpenMP, MPI, CUDA, Linux Kernel, eBPF, UPPAAL, Dafny, Blender \
+*Linguistic Proficiency*: Chinese (Native), English (Advanced, TOEFL 112: R30/L30/S24/W28)\
+*Programming Languages*: Python, C, C++, Rust, Golang, Typescript, Shell, SQL\
+*Tools and Frameworks*: PyTorch, OpenMP, MPI, CUDA, Linux Kernel, eBPF, UPPAAL, Dafny, Blender\
 *DevOps Technologies*: Kubernetes, Docker, Gitlab, Postgres, Cloudflare Worker
