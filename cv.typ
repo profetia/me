@@ -33,13 +33,10 @@ yanglsh\@shanghaitech.edu.cn |
 Bachelor of Engineering in Computer Science and Technology #h(1fr) Shanghai,
 China\
 - Overall GPA 3.72/4.0, Rank 25/178 (Top 15%), Major GPA 3.83/4.0
-// TODO: Computer Architecture maybe removed
 - Relevant Courses: Algorithms and Data Structure (A),/*Computer Architecture (A+), */ Computer
   Networks (A+), Operating Systems (A+),\
   #h(83pt) Software Engineering (A), Deep Learning (A+), Computer Aided
   Verification (A+)
-// - Standardized Test:
-//   - TOFEL: 112 (Reading 30 + Listening 30 + Speaking 24 + Writing 28)
 
 == Publications
 #chiline()
@@ -71,17 +68,17 @@ Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
   - Identified a bottleneck in eBPF-intensive workloads, common in malware analysis,
     for the Linux CFS and demonstrated the effectiveness of ITD updates in kernel
     space for the proposed ITD-guided scheduler.
-  - Provided a comprehensive performance benchmark of the proposed scheduler for
+  - Provided a comprehensive benchmark of the proposed scheduler for
     virtualization and other kernel-heavy tasks.
 // TODO: Replace with an official title if needed
-- *Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
-  - Evaluated the robustness of existing attack methods on newer LIDAR models,
-    proving their ineffectiveness.
-  - Built an adversarial device replicating a malfunction of a widely-used commodity
-    LIDAR model and used it to explore possible attack methods exploiting this
-    vulnerability.
+// - *Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
+//   - Evaluated the robustness of existing attack methods on newer LIDAR models,
+//     proving their ineffectiveness.
+//   - Built an adversarial device replicating a malfunction of a widely-used commodity
+//     LIDAR model and used it to explore possible attack methods exploiting this
+//     vulnerability.
 - *Understanding Precision Time Protocol in Embedded Systems: A Measurement Study*
-  - Migrated the Precision Time Protocol (PTP) to Bluetooth Low Energy (BLE) on
+  - Migrated the PTP to BLE on
     embedded systems by emulating the hardware PTP clock with specific counters.
   - Implemented a synchronized sound recording system across 20 devices to
     demonstrate the method's capabilities.
@@ -118,31 +115,30 @@ Software Engineer Intern #h(1fr) Shanghai, China\
 == Activities
 #chiline()
 
-*ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04\
-Team Leader #h(1fr) // Shanghai, China
-- Implemented GPU offloading and code optimization for microphysics, a climate
-  simulation application derived from the ICON model, achieving strong scaling on
-  CPU and a 200x acceleration on GPU.
-- Guided the team through MPI profiling and optimization, reducing the time spend
-  on communication by 50%.
+*Open Source Contributions*
+- *Contributor, The Rust Programming Language* #h(1fr) 2024/12 -- present
+  - Extended the exhaustive check for the `replace-if-let-with-match` refactor option of rust-analyzer in PR \#18797.
+  - Triage and fix issues for Clippy, the Rust linter, including bug fixes and improvements in PRs \#13888, \#13889, \#13891, \#14151, \#14204, \#14209, \#14210 and \#14237.
 
-*Geekpie Association* #h(1fr) 2022/08 -- 2023/07\
-Vice President #h(1fr) // Shanghai, China
-\
-- Developed the frontend of Coursebench, a popular course-rating platform at
-  ShanghaiTech University.
-- Organized events including Geekpie Games and Geekpie Linux Seminar, with more
-  than 1,000 students participated.
+*HPC Competitions*
+- *Team Leader, ISC'24 Student Cluster Competition* #h(1fr) 2024/03 -- 2024/04
+  - Implemented GPU offloading and code optimization for microphysics, a climate
+    simulation application derived from the ICON model, achieving strong scaling on
+    CPU and a 200x acceleration on GPU.
+  - Guided the team through MPI profiling and optimization, reducing the time spend
+    on communication by 50%.
 
-*School of Information Science and Technology* #h(1fr) 2023/02 -- 2023/06\
-Teaching Assistant #h(1fr) // Shanghai, China
-\
-- CS100: Computer Programming, ShanghaiTech University
-- CS132: Software Engineering, ShanghaiTech University
+*Student Organizations*
+- *Vice President, Geekpie Association* #h(1fr) 2022/08 -- 2023/07
+  - Developed the frontend of Coursebench, a popular course-rating platform at
+    ShanghaiTech University.
+  - Organized events including Geekpie Games and Geekpie Linux Seminar, with more
+    than 1,000 students participated.
 
-// *Office of Environment, Health and Safety* #h(1fr) 2022/09 -- 2022/11 \
-// Assistant Manager #h(1fr) // Shanghai, China
-// \
+*Teachings*
+- *Teaching Assistant, ShanghaiTech University* #h(1fr) 2023/02 -- 2023/06
+  - CS100: Computer Programming, 2023 Spring
+  - CS132: Software Engineering, 2023 Spring
 
 == Projects
 #chiline()
@@ -184,6 +180,7 @@ An optimized numerical simulation of Computational Fluid Dynamics #h(1fr) // #lo
 == Awards
 #chiline()
 
+- Second Prize (Rank 6/447), 2025 The 2nd PKU HPCGame #h(1fr) 2025/01
 - Rank 9/29 (5/29 for my part on microphysics), ISC'24 Student Cluster Competition #h(1fr) 2024/04
 - Outstanding Teaching Assistant, ShanghaiTech University #h(1fr) 2023/06
 // - Silver Award, ICPC China Silk Road National Invitational 2023 #h(1fr) 2023/05
