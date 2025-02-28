@@ -65,10 +65,8 @@ Research Intern, Advised by *Prof. Yiting Xia* #h(1fr) Saarbrücken, Germany\
 2024/08\
 Research Intern, Advised by *Prof. Zhice Yang* #h(1fr) Shanghai, China\
 - *Understanding Hybrid Scheduling in Asymmetric Processors*
-  - Identified a bottleneck in eBPF-intensive workloads, common in malware analysis,
-    for the Linux CFS and demonstrated the effectiveness of ITD updates in kernel
-    space for the proposed ITD-guided scheduler.
-  - Provided a comprehensive benchmark of the proposed scheduler for
+  - Identified cases where Linux's CFS performs suboptimally on AMP platforms and proposed patches to improve its scheduling decisions correspondingly.
+  - Provided a comprehensive benchmark for the patched scheduler with
     virtualization and other kernel-heavy tasks.
 // TODO: Replace with an official title if needed
 // - *Exploitation of Vulnerabilities in a Popular Commodity LIDAR Model*
@@ -101,7 +99,6 @@ System R&D Intern, Tactic Intelligence Team #h(1fr) Shanghai, China
   utilizing new kernel features.
 - Extended the dynamic observation and analysis capabilities of the Linux sandbox
   using customized probing tools in eBPF and kernel modules.
-// - Extended dynamic analysis capabilities of the Linux sandbox with customized probing tools in eBPF and kernel modules.
 - Streamlined the gRPC endpoint for the malware database and rewrote the log
   parser with PEG.
 
