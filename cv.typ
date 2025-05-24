@@ -20,6 +20,16 @@
   v(-5pt)
 }
 
+#let last_updated(date) = {
+  place(
+    bottom,
+    [
+      #h(1fr)
+      #text("Last updated in " + date, fill: color.gray)
+    ],
+  )
+}
+
 = Linshu Yang
 
 yanglsh\@shanghaitech.edu.cn
@@ -181,3 +191,5 @@ R30/L30/S24/W28)\
 *Programming Languages*: Python, C, C++, Rust, Golang, Typescript, Shell, SQL\
 *Tools and Frameworks*: OpenMP, MPI, CUDA, Linux Kernel, eBPF, PyTorch, UPPAAL, Dafny, Blender\
 *DevOps Technologies*: Docker, Kubernetes, Gitlab, Postgres, Cloudflare Worker
+
+#last_updated(datetime.today().display("[month repr:long], [year]"))
